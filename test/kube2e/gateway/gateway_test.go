@@ -440,7 +440,7 @@ var _ = Describe("Kube2e: gateway", func() {
 			})
 		})
 
-		Context("with a mix of valid and invalid virtual services", func() {
+		FContext("with a mix of valid and invalid virtual services", func() {
 			var (
 				validVsName   = "i-am-valid"
 				invalidVsName = "i-am-invalid"
